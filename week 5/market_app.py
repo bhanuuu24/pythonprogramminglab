@@ -22,7 +22,7 @@ def viewcart():
     else:
         print("Your shopping cart:")
         for i in range(len(itemlist)):
-            print(f"{itemlist[i]} - ${pricelist[i]}")
+            print(f"{itemlist[i]} - ₹{pricelist[i]}")
 
 while True:
     print("------ Market Menu ------")
